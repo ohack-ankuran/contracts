@@ -1,0 +1,23 @@
+{
+	"dateOfProduction": "2019-01-11",
+	"itemId": 135,
+	"itemOrProjectName": "500 bags",
+	"payments": [
+		{
+			"employeeId": 24789792,
+			"amount": 300
+		},
+		{
+			"employeeId": 28479870,
+			"amount": 300
+		},
+		{
+			"employeeId": 24203984,
+			"amount": 300
+		},
+		{
+			"employeeId": 28712839,
+			"amount": 300
+		}
+	]
+}

@@ -1,0 +1,33 @@
+{
+	"employeeId": 736438274,
+	"totalPayment": 930,	//this field will be populated when response status is SUCCESS
+	"dateOfProduction": "2019-01-11",
+	"items": [
+		{
+			"id": 101,	//number, mandatory, system generated
+			"quantity": 3,	//number, mandatory, user input, default=1
+			"paymentPerItem": 220	//number, mandatory, user input, default=0
+			//display the total amount per item (quantity x paymentPerItem = totalAmountPerItem)
+		},
+		{
+			//this is a case where the item produced is not from the catalogue. However, user has chosen to add it to the catalogue. An expanded block will take input for adding this item to the catalogue.
+			"id": 135,	//number, mandatory, system generated
+			"quantity": 2,	//number, mandatory, user input, default=1
+			"paymentPerItem": 50	//number, mandatory, user input, default=0
+			//display the total amount per item (quantity x paymentPerItem = totalAmountPerItem)
+		},
+		{
+			//this is a special case where the item produced is not from the catalogue. User doesn't even want to add this product to the catalogue.
+			"name": "Special Product",	//string, mandatory, user input, default="Special Product" (use default value when user leaves the product column blank)
+			"quantity": 1,
+			"paymentPerItem": 170
+		}
+		//display the total amount at the end
+	],
+	"response": {
+		"status": "SUCCESS/VALIDATION_FAILURE/UNKNOWN_FAILURE",
+		"errors": [
+			"Quantity of Red Flower Bedsheet should be more than 0"
+		],
+	}
+}

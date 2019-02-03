@@ -1,0 +1,24 @@
+{
+	"id": 24938589,
+	"name": {
+		"firstName": "Sunita",	//string, mandatory, user input
+		"lastName": "Singh"	//string, optional, user input
+	},
+	"dateOfJoining": "2019-01-11",	//date, compulsory, system generated
+	"active": true,	//boolean, compulsory, user input, default=true
+	"husband": {
+		"name": {
+			"firstName": "Shyam",	//string, optional, user input
+			"lastName": "Singh"	//string, optional, user input
+		},
+		"bslEmployeeId": "BSL-236799834"	//string, optional, user input
+	},
+	"centre": 1,	//number, mandatory, user input
+	
+	"response": {
+		"status": "SUCCESS/VALIDATION_FAILURE/UNKNOWN_FAILURE",
+		"errors": [
+			"First name cannot be empty"
+		]
+	}
+}
