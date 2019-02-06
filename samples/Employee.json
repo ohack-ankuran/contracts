@@ -1,16 +1,12 @@
 {
 	"id": 234567898765,	//number, mandatory, system generated
 	"name": {
-		"firstName": "Sunita",	//string, mandatory, user input
-		"lastName": "Singh",	//string, optional, user input
-		"fullName": "Sunita Singh"	//string, mandatory, system generated
+		"fullName": "Sunita Singh"	//string, mandatory, user input
 	},
-	"dateOfJoining": "2016-01-11",	//date, compulsory, system generated
+	"timeOfJoining": "2019-01-12T00:15:21.030Z",	//date, compulsory, system generated
 	"active": true,	//boolean, compulsory, user input, default=true
 	"husband": {
 		"name": {
-			"firstName": "Shyam",	//string, optional, user input
-			"lastName": "Singh",	//string, optional, user input
 			"fullName": "Shyam Singh"
 		},
 		"bslEmployeeId": "BSL-236799834"	//string, optional, user input
