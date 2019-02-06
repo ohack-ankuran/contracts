@@ -10,7 +10,8 @@
 	"husband": {
 		"name": {
 			"firstName": "Shyam",	//string, optional, user input
-			"lastName": "Singh"	//string, optional, user input
+			"lastName": "Singh",	//string, optional, user input
+			"fullName": "Shyam Singh"
 		},
 		"bslEmployeeId": "BSL-236799834"	//string, optional, user input
 	},
