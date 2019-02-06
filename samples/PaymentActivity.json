@@ -5,8 +5,8 @@
 	"dueDetails": null,
 	"paymentDetails": {
 		"id": 1827397452,
-		"note": "advance payment",
-		"recipient": {
+		"note": "advance payment",	//default="Payment"
+		"recipient": {	//recipient object will be null while creating a payment activity since the employee id will be part of the URL
 			"id": 234567898765,	
 			"name": {
 				"fullName": "Sunita Singh"
@@ -15,7 +15,7 @@
 			"centre": 1
 		},
 		"amount": 1000,
-		"currentDue": 1500,
-		"remainingDue": 500
+		"currentDue": 1500,	//will be null in request
+		"remainingDue": 500	//will be null in request
 	}
 }
