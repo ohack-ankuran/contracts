@@ -1,26 +1,30 @@
 {
-	"employeeId": 736438274,
+	"id": 1129764321,
+	"distributionType": "INDIVIDUAL",
 	"dateOfProduction": "2019-01-11",
-	"items": [
-		{
-			"id": 101,	//number, mandatory, system generated
-			"quantity": 3,	//number, mandatory, user input, default=1
-			"paymentPerItem": 220	//number, mandatory, user input, default=0
-			//display the total amount per item (quantity x paymentPerItem = totalAmountPerItem)
-		},
-		{
-			//this is a case where the item produced is not from the catalogue. However, user has chosen to add it to the catalogue. An expanded block will take input for adding this item to the catalogue.
-			"id": 135,	//number, mandatory, system generated
-			"quantity": 2,	//number, mandatory, user input, default=1
-			"paymentPerItem": 50	//number, mandatory, user input, default=0
-			//display the total amount per item (quantity x paymentPerItem = totalAmountPerItem)
-		},
-		{
-			//this is a special case where the item produced is not from the catalogue. User doesn't even want to add this product to the catalogue.
-			"name": "Special Product",	//string, mandatory, user input, default="Special Product" (use default value when user leaves the product column blank)
-			"quantity": 1,
-			"paymentPerItem": 170
-		}
-		//display the total amount at the end
-	]
+	"item": {
+		"id": 135,
+		"name": "Special Product",	//id and name are both optional fields. Always use name for rendering. Id will be empty whenever a due was recorded for an item not in the catalogue.
+		"quantity": 2,
+		"paymentPerItem": 50
+	},
+	"amount": 100,
+	"distribution": {
+		"mode": "EQUAL",
+		"acrossEmployees": [
+			{
+				"employee": {
+					"id": 234567898765,	
+					"name": {
+						"firstName": "Sunita",	//optional in request
+						"lastName": "Singh",	//optional in request
+						"fullName": "Sunita Singh"	//optional in request
+					},
+					"active": true,	//optional in request
+					"centre": 1	//optional in request
+				},
+				"amount": "100"	
+			}
+		]
+	}
 }

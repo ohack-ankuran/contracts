@@ -1,0 +1,90 @@
+{
+	"dues": [
+		{
+			"id": 1372486234,
+			"distributionType": "INDIVIDUAL",
+			"dateOfProduction": "2019-01-11",
+			"item": {
+				"id": 135,
+				"name": "Special Product",	//id and name are both optional fields. Always use name for rendering. Id will be empty whenever a due was recorded for an item not in the catalogue.
+				"quantity": 2,
+				"paymentPerItem": 50
+			},
+			"amount": 100,
+			"distribution": {
+				"mode": "EQUAL",
+				"acrossEmployees": [
+					{
+						"employee": {
+							"id": 234567898765,	
+							"name": {
+								"firstName": "Sunita",
+								"lastName": "Singh",
+								"fullName": "Sunita Singh"
+							},
+							"active": true,	
+							"centre": 1
+						},
+						"amount": "100"
+					}
+				]
+			}
+		},
+		{
+			"id": 1972938426,
+			"distributionType": "GROUP",
+			"dateOfProduction": "2019-01-11",
+			"item": {
+				"id": 136,
+				"name": "Coach School Bag",
+				"quantity": 15,
+				"paymentPerItem": 120
+			},
+			"amount": 1800,
+			"distribution": {
+				"mode": "UNEQUAL",
+				"acrossEmployees": [
+					{
+						"employee": {
+							"id": 234567898765,	
+							"name": {
+								"firstName": "Sunita",
+								"lastName": "Singh",
+								"fullName": "Sunita Singh"
+							},
+							"active": true,	
+							"centre": 1
+						},
+						"amount": "500"
+					},
+					{
+						"employee": {
+							"id": 234567898766,	
+							"name": {
+								"firstName": "Mamta",
+								"lastName": "Kumari",
+								"fullName": "Mamta Kumari"
+							},
+							"active": true,	
+							"centre": 1
+						},
+						"amount": "600"
+					},
+					{
+						"employee": {
+							"id": 234567898767,	
+							"name": {
+								"firstName": "Meena",
+								"lastName": "Maheshwari",
+								"fullName": "Meena Maheshwari"
+							},
+							"active": true,	
+							"centre": 1
+						},
+						"amount": "700"
+					}
+				]
+			}
+		}
+	]
+}
