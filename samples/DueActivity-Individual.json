@@ -1,0 +1,34 @@
+{
+	"id": "LWDUIE67HJK768J",
+	"time": "2019-01-12T00:15:21.030Z",
+	"type": "DUE",
+	"dueDetails": {
+		"id": 1372486234,
+		"distributionType": "INDIVIDUAL",
+		"timeOfProduction": "2019-01-12T00:15:21.030Z",
+		"item": {
+			"id": 135,
+			"name": "Special Product",	//id and name are both optional fields. Always use name for rendering. Id will be empty whenever a due was recorded for an item not in the catalogue.
+			"quantity": 2,
+			"paymentPerItem": 50
+		},
+		"amount": 100,
+		"distribution": {
+			"mode": "EQUAL",
+			"split": [
+				{
+					"employee": {
+						"id": 234567898765,	
+						"name": {
+							"fullName": "Sunita Singh"
+						},
+						"active": true,	
+						"centre": 1
+					},
+					"amount": "100"
+				}
+			]
+		}
+	},
+	"paymentDetails": null
+}

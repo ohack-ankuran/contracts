@@ -1,0 +1,56 @@
+{
+	"id": "LWDUIE67HJK768J",
+	"time": "2019-01-12T00:15:21.030Z",
+	"type": "DUE",
+	"dueDetails": {
+		"id": 1972938426,
+		"distributionType": "GROUP",
+		"timeOfProduction": "2019-01-12T00:15:21.030Z",
+		"item": {
+			"id": 136,
+			"name": "Coach School Bag",
+			"quantity": 15,
+			"paymentPerItem": 120
+		},
+		"amount": 1800,
+		"distribution": {
+			"mode": "UNEQUAL",
+			"split": [
+				{
+					"employee": {
+						"id": 234567898765,	
+						"name": {
+							"fullName": "Sunita Singh"
+						},
+						"active": true,	
+						"centre": 1
+					},
+					"amount": "500"
+				},
+				{
+					"employee": {
+						"id": 234567898766,	
+						"name": {
+							"fullName": "Mamta Kumari"
+						},
+						"active": true,	
+						"centre": 1
+					},
+					"amount": "600"
+				},
+				{
+					"employee": {
+						"id": 234567898767,	
+						"name": {
+							"fullName": "Meena Maheshwari"
+						},
+						"active": true,	
+						"centre": 1
+					},
+					"amount": "700"
+				}
+			]
+		}
+	},
+	"paymentDetails": null
+}

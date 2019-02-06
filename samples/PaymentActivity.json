@@ -1,0 +1,20 @@
+{
+	"id": "DLJUIE67HJK768J",
+	"time": "2019-01-11T00:15:21.030Z",
+	"type": "PAYMENT",
+	"dueDetails": null,
+	"paymentDetails": {
+		"id": 1827397452,
+		"recipient": {
+			"id": 234567898765,	
+			"name": {
+				"fullName": "Sunita Singh"
+			},
+			"active": true,	
+			"centre": 1
+		},
+		"amount": 1000,
+		"currentDue": 1500,
+		"remainingDue": 500
+	}
+}
