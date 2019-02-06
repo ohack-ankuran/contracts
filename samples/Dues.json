@@ -13,7 +13,7 @@
 			"amount": 100,
 			"distribution": {
 				"mode": "EQUAL",
-				"acrossEmployees": [
+				"split": [
 					{
 						"employee": {
 							"id": 234567898765,	
@@ -43,7 +43,7 @@
 			"amount": 1800,
 			"distribution": {
 				"mode": "UNEQUAL",
-				"acrossEmployees": [
+				"split": [
 					{
 						"employee": {
 							"id": 234567898765,	

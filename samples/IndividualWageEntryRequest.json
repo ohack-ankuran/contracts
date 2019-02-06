@@ -11,7 +11,7 @@
 	"amount": 100,
 	"distribution": {
 		"mode": "EQUAL",
-		"acrossEmployees": [
+		"split": [
 			{
 				"employee": {
 					"id": 234567898765,	
