@@ -2,7 +2,8 @@
 	"id": 234567898765,	//number, mandatory, system generated
 	"name": {
 		"firstName": "Sunita",	//string, mandatory, user input
-		"lastName": "Singh"	//string, optional, user input
+		"lastName": "Singh",	//string, optional, user input
+		"fullName": "Sunita Singh"	//string, mandatory, system generated
 	},
 	"dateOfJoining": "2016-01-11T12:10:59.000Z",	//date, compulsory, system generated
 	"active": true,	//boolean, compulsory, user input, default=true
