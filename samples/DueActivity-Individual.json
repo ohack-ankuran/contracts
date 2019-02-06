@@ -5,7 +5,6 @@
 	"dueDetails": {
 		"id": 1372486234,
 		"distributionType": "INDIVIDUAL",
-		"timeOfProduction": "2019-01-12T00:15:21.030Z",
 		"item": {
 			"id": 135,
 			"name": "Special Product",	//id and name are both optional fields. Always use name for rendering. Id will be empty whenever a due was recorded for an item not in the catalogue.
@@ -13,7 +12,7 @@
 			"paymentPerItem": 50
 		},
 		"amount": 100,
-		"distribution": {
+		"distribution": {	//distribution object will be null for distributionType=INDIVIDUAL since employeeId will pe part of the URL
 			"mode": "EQUAL",
 			"split": [
 				{
