@@ -7,7 +7,7 @@
 			"id": 135,
 			"name": "Special Product",	//id and name are both optional fields. Always use name for rendering. Id will be empty whenever a due was recorded for an item not in the catalogue.
 			"quantity": 2,
-			"paymentPerItem": 50
+			"duePerItem": 50
 		},
 		"amount": 100
 	}
