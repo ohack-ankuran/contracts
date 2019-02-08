@@ -1,19 +1,29 @@
 {
 	"id": "LWDUIE67HJK768J",
-	"time": "2019-01-12T00:15:21.030Z",
+	"timeCreated": "2019-01-12T00:15:21.030Z",
 	"type": "DUE",
 	"dueDetails": {
 		"id": 1372486234,
 		"distributionType": "INDIVIDUAL",
 		"item": {
-			"id": 135,
-			"name": "Special Product",	//id and name are both optional fields. Always use name for rendering. Id will be empty whenever a due was recorded for an item not in the catalogue.
-			"quantity": 2,
-			"paymentPerItem": 50
+			"id": 101,	
+			"name": "Red Flower Bedsheet",	
+			"type": "Bedsheet",	
+			"picture": "https://linktoimage.png",
+			"labels": [
+				"red", "flower", "bedsheet"	
+			],
+			"timeCreated": "2016-01-11T12:10:59.000Z",	
+			"addedBy": {
+				"id": 137912876,
+				"fullName": "Sunita Singh"
+			},
+			"active": true	
 		},
+		"quantity": 2,
+		"duePerItem": 50,
 		"amount": 100,
-		"distribution": {	//distribution object will be null for distributionType=INDIVIDUAL since employeeId will pe part of the URL
-			"mode": "EQUAL",
+		"distribution": {
 			"split": [
 				{
 					"employee": {
@@ -24,7 +34,7 @@
 						"active": true,	
 						"centre": 1
 					},
-					"amount": "100"
+					"amount": 100
 				}
 			]
 		}

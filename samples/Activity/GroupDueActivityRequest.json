@@ -1,36 +1,34 @@
 {
-	"time": "2019-01-12T00:15:21.030Z",
+	"timeCreated": "2019-01-12T00:15:21.030Z",
 	"type": "DUE",
 	"dueDetails": {
 		"distributionType": "GROUP",
 		"item": {
 			"id": 136,
-			"name": "Coach School Bag",
-			"quantity": 15,
-			"duePerItem": 120
+			"name": "Coach School Bag"
 		},
+		"quantity": 15,
+		"duePerItem": 120,
 		"amount": 1800,
-		"distribution": {
-			"split": [
-				{
-					"employee": {
-						"id": 234567898765	
-					},
-					"amount": "500"
+		"distribution": [
+			{
+				"employee": {
+					"id": 234567898765	
 				},
-				{
-					"employee": {
-						"id": 234567898766	
-					},
-					"amount": "600"
+				"amount": 500
+			},
+			{
+				"employee": {
+					"id": 234567898766	
 				},
-				{
-					"employee": {
-						"id": 234567898767
-				},
-				"amount": "700"
-				}
-			]
-		}
+				"amount": 600
+			},
+			{
+				"employee": {
+					"id": 234567898767
+			},
+				"amount": 700
+			}
+		]
 	}
 }

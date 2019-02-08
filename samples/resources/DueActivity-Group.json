@@ -1,55 +1,52 @@
 {
 	"id": "LWDUIE67HJK768J",
-	"time": "2019-01-12T00:15:21.030Z",
+	"timeCreated": "2019-01-12T00:15:21.030Z",
 	"type": "DUE",
 	"dueDetails": {
 		"id": 1972938426,
 		"distributionType": "GROUP",
 		"item": {
 			"id": 136,
-			"name": "Coach School Bag",
-			"quantity": 15,
-			"paymentPerItem": 120
+			"name": "Coach School Bag"
 		},
+		"quantity": 15,
+		"duePerItem": 120,
 		"amount": 1800,
-		"distribution": {
-			"mode": "UNEQUAL",
-			"split": [
-				{
-					"employee": {
-						"id": 234567898765,	
-						"name": {
-							"fullName": "Sunita Singh"
-						},
-						"active": true,	
-						"centre": 1
+		"distribution": [
+			{
+				"employee": {
+					"id": 234567898765,	
+					"name": {
+						"fullName": "Sunita Singh"
 					},
-					"amount": "500"
+					"active": true,	
+					"centre": 1
 				},
-				{
-					"employee": {
-						"id": 234567898766,	
-						"name": {
-							"fullName": "Mamta Kumari"
-						},
-						"active": true,	
-						"centre": 1
+				"amount": 500
+			},
+			{
+				"employee": {
+					"id": 234567898766,	
+					"name": {
+						"fullName": "Mamta Kumari"
 					},
-					"amount": "600"
+					"active": true,	
+					"centre": 1
 				},
-				{
-					"employee": {
-						"id": 234567898767,	
-						"name": {
-							"fullName": "Meena Maheshwari"
-						},
-						"active": true,	
-						"centre": 1
+				"amount": 600
+			},
+			{
+				"employee": {
+					"id": 234567898767,	
+					"name": {
+						"fullName": "Meena Maheshwari"
 					},
-					"amount": "700"
-				}
-			]
-		}
+					"active": true,	
+					"centre": 1
+				},
+				"amount": 700
+			}
+		]
 	},
 	"paymentDetails": null
 }
