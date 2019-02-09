@@ -3,7 +3,7 @@
 	"timeCreated": "2019-01-12T00:15:21.030Z",
 	"type": "DUE",
 	"dueDetails": {
-		"id": 1372486234,
+		"id": "PKJLIO30480HOC",
 		"distributionType": "INDIVIDUAL",
 		"item": {
 			"id": 101,	
@@ -22,22 +22,7 @@
 		},
 		"quantity": 2,
 		"duePerItem": 50,
-		"amount": 100,
-		"distribution": {
-			"split": [
-				{
-					"employee": {
-						"id": 234567898765,	
-						"name": {
-							"fullName": "Sunita Singh"
-						},
-						"active": true,	
-						"centre": 1
-					},
-					"amount": 100
-				}
-			]
-		}
+		"amount": 100
 	},
 	"paymentDetails": null
 }

@@ -10,6 +10,6 @@
 	"addedBy": {
 		"id": 137912876,
 		"fullName": "Sunita Singh"
-	},	
+	},
 	"active": true	//boolean, mandatory, user input, default=true
 }

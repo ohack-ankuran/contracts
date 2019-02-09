@@ -3,11 +3,22 @@
 	"timeCreated": "2019-01-12T00:15:21.030Z",
 	"type": "DUE",
 	"dueDetails": {
-		"id": 1972938426,
+		"id": "PKJLIO30480HOC",
 		"distributionType": "GROUP",
 		"item": {
 			"id": 136,
-			"name": "Coach School Bag"
+			"name": "Coach School Bag",
+			"type": "Bag",	
+			"picture": "https://linktoimage.png",
+			"labels": [
+				"red", "flower", "bag"	
+			],
+			"timeCreated": "2016-01-11T12:10:59.000Z",	
+			"addedBy": {
+				"id": 137912876,
+				"fullName": "Sunita Singh"
+			},
+			"active": true	
 		},
 		"quantity": 15,
 		"duePerItem": 120,
