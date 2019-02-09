@@ -1,0 +1,13 @@
+{
+	"id": 101,	//number, mandatory, system generated
+	"name": "Red Flower Bedsheet",	//string, mandatory, user input
+	"type": "Bedsheet",	//enum, optional, user input
+	"picture": "https://linktoimage.png",	//string, optional, system generated
+	"labels": [
+		"red", "flower", "bedsheet"	//List<string>, optional, user input
+	],
+	"timeCreated": "2016-01-11T12:10:59.000Z",	//Date, mandatory, system generated
+	"addedBy": {
+		"id": 137912876
+	}
+}

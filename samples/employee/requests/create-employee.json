@@ -1,13 +1,9 @@
 {
-	"name": {
-		"fullName": "Sunita Singh"	//string, mandatory, user input
-	},
+	"fullName": "Sunita Singh",	//string, mandatory, user input
 	"timeOfJoining": "2019-01-12T00:15:21.030Z",	//date, compulsory, system generated
 	"active": true,	//boolean, compulsory, user input (in case of modification), default=true
 	"husband": {
-		"name": {
-			"fullName": "Shyam Singh"	//string, optional, user input
-		},
+		"fullName": "Shyam Singh",	//string, optional, user input
 		"bslEmployeeId": "BSL-236799834"	//string, optional, user input
 	}
 }

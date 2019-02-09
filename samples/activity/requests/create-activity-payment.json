@@ -1,11 +1,9 @@
 {
 	"timeCreated": "2019-01-11T00:15:21.030Z",
 	"type": "PAYMENT",
+	"dueDetails": null,
 	"paymentDetails": {
 		"note": "advance payment",	//default="Payment"
-		"recipient": {	//recipient object will be null while creating a payment activity since the employee id will be part of the URL
-			"id": 234567898765
-		},
 		"amount": 1000
 	}
 }

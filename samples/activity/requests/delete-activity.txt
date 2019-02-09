@@ -1,0 +1,1 @@
+To delete an activity, call HTTP DELETE method on that activityId resource

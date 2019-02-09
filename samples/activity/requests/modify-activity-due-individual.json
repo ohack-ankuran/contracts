@@ -1,0 +1,16 @@
+{
+	"timeCreated": "2019-02-7T00:01:40.030Z",
+	"type": "DUE",
+	"dueDetails": {
+		"id": "NBAWT746MO91CA",
+		"distributionType": "INDIVIDUAL",
+		"item": {
+			"id": 102,	
+			"name": "Green Apron",	
+		},
+		"quantity": 5,
+		"duePerItem": 40,
+		"amount": 200
+	},
+	"paymentDetails": null
+}

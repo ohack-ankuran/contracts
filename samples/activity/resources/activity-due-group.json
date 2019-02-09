@@ -1,9 +1,11 @@
 {
 	"id": "LWDUIE67HJK768J",
-	"timeCreated": "2019-01-12T00:15:21.030Z",
+	"timeCreated": "2019-01-15T00:21:45.387Z",
 	"type": "DUE",
+	"status": "CORRECT",
+	"changeHistory": false,
 	"dueDetails": {
-		"id": "PKJLIO30480HOC",
+		"id": "MWQLIO936807SV",
 		"distributionType": "GROUP",
 		"item": {
 			"id": 136,
@@ -22,14 +24,12 @@
 		},
 		"quantity": 15,
 		"duePerItem": 120,
-		"amount": 1800,
+		"amount": 600,
 		"distribution": [
 			{
 				"employee": {
 					"id": 234567898765,	
-					"name": {
-						"fullName": "Sunita Singh"
-					},
+					"fullName": "Sunita Singh",
 					"active": true,	
 					"centre": 1
 				},
@@ -38,9 +38,7 @@
 			{
 				"employee": {
 					"id": 234567898766,	
-					"name": {
-						"fullName": "Mamta Kumari"
-					},
+					"fullName": "Mamta Kumari",
 					"active": true,	
 					"centre": 1
 				},
@@ -48,10 +46,8 @@
 			},
 			{
 				"employee": {
-					"id": 234567898767,	
-					"name": {
-						"fullName": "Meena Maheshwari"
-					},
+					"id": 234567898767,
+					"fullName": "Meena Maheshwari",
 					"active": true,	
 					"centre": 1
 				},
@@ -60,4 +56,4 @@
 		]
 	},
 	"paymentDetails": null
-}
+},

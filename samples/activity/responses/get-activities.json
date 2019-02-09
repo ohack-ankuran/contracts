@@ -1,0 +1,176 @@
+{
+	"activities": [
+		{
+			"id": "DQJAZ629PLDF4M",
+			"timeCreated": "2019-02-7T00:01:40.030Z",
+			"type": "DUE",
+			"status": "CORRECT",
+			"changeHistory": false,
+			"dueDetails": {
+				"id": "NBAWT746MO91CA",
+				"distributionType": "INDIVIDUAL",
+				"item": {
+					"id": 102,	
+					"name": "Green Apron",	
+					"type": "Apron",	
+					"picture": "https://linktoimage.png",
+					"labels": [
+						"green", "apron"	
+					],
+					"timeCreated": "2016-01-11T12:10:59.000Z",	
+					"addedBy": {
+						"id": 137912876,
+						"fullName": "Sunita Singh"
+					},
+					"active": true	
+				},
+				"quantity": 5,
+				"duePerItem": 40,
+				"amount": 200
+			},
+			"paymentDetails": null
+		},
+		{
+			"id": "PQLS947JNAD23J",
+			"timeCreated": "2019-02-05T09:12:01.030Z",
+			"type": "DUE",
+			"status": "CORRECT",
+			"changeHistory": true,
+			"dueDetails": {
+				"id": "PKJLIO30480HOC",
+				"distributionType": "INDIVIDUAL",
+				"item": {
+					"id": 101,	
+					"name": "Pink Butterfly Bedsheet",	
+					"type": "Bedsheet",	
+					"picture": "https://linktoimage.png",
+					"labels": [
+						"pink", "butterfly", "bedsheet"	
+					],
+					"timeCreated": "2016-01-11T12:10:59.000Z",	
+					"addedBy": {
+						"id": 137912876,
+						"fullName": "Sunita Singh"
+					},
+					"active": true	
+				},
+				"quantity": 3,
+				"duePerItem": 40,
+				"amount": 120
+			},
+			"paymentDetails": null
+		},
+		{
+			"id": "DLJUIE67HJK768J",
+			"timeCreated": "2019-02-01T00:15:21.030Z",
+			"type": "PAYMENT",
+			"status": "CORRECT",
+			"changeHistory": false,
+			"dueDetails": null,
+			"paymentDetails": {
+				"id": "OWMXBSK8763YWT",
+				"note": "advance payment",
+				"recipient": {
+					"id": 234567898765,	
+					"fullName": "Sunita Singh",
+					"active": true,	
+					"centre": 1
+				},
+				"amount": 1000,
+				"currentDue": 1500,
+				"remainingDue": 500
+			}
+		},
+		
+		{
+			"id": "LWDUIE67HJK768J",
+			"timeCreated": "2019-01-31T00:15:21.030Z",
+			"type": "DUE",
+			"status": "INCORRECT",
+			"changeHistory": true,
+			"dueDetails": {
+				"id": "PKJLIO30480HOC",
+				"distributionType": "INDIVIDUAL",
+				"item": {
+					"id": 101,	
+					"name": "Red Flower Bedsheet",	
+					"type": "Bedsheet",	
+					"picture": "https://linktoimage.png",
+					"labels": [
+						"red", "flower", "bedsheet"	
+					],
+					"timeCreated": "2016-01-11T12:10:59.000Z",	
+					"addedBy": {
+						"id": 137912876,
+						"fullName": "Sunita Singh"
+					},
+					"active": true	
+				},
+				"quantity": 2,
+				"duePerItem": 50,
+				"amount": 100
+			},
+			"paymentDetails": null
+		},
+		{
+			"id": "LWDUIE67HJK768J",
+			"timeCreated": "2019-01-15T00:21:45.387Z",
+			"type": "DUE",
+			"status": "CORRECT",
+			"changeHistory": false,
+			"dueDetails": {
+				"id": "MWQLIO936807SV",
+				"distributionType": "GROUP",
+				"item": {
+					"id": 136,
+					"name": "Coach School Bag",
+					"type": "Bag",	
+					"picture": "https://linktoimage.png",
+					"labels": [
+						"red", "flower", "bag"	
+					],
+					"timeCreated": "2016-01-11T12:10:59.000Z",	
+					"addedBy": {
+						"id": 137912876,
+						"fullName": "Sunita Singh"
+					},
+					"active": true	
+				},
+				"quantity": 15,
+				"duePerItem": 120,
+				"amount": 600
+			},
+			"paymentDetails": null
+		},
+		{
+			"id": "QOSID29384NKJD",
+			"timeCreated": "2019-01-11T00:01:40.030Z",
+			"type": "DUE",
+			"status": "DELETED",
+			"changeHistory": false,
+			"dueDetails": {
+				"id": "PQMZYS7381KSWGF",
+				"distributionType": "INDIVIDUAL",
+				"item": {
+					"id": 102,	
+					"name": "Green Apron",	
+					"type": "Apron",	
+					"picture": "https://linktoimage.png",
+					"labels": [
+						"green", "apron"	
+					],
+					"timeCreated": "2016-01-11T12:10:59.000Z",	
+					"addedBy": {
+						"id": 137912876,
+						"fullName": "Sunita Singh"
+					},
+					"active": true	
+				},
+				"quantity": 2,
+				"duePerItem": 75,
+				"amount": 150
+			},
+			"paymentDetails": null
+		}
+	]
+}

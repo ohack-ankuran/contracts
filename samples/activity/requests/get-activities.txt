@@ -1,0 +1,16 @@
+Method: GET
+
+URL: /centres/1/employees/101
+
+QueryParams: 
+	key = type
+	values = DUE, PAYMENT
+
+	key = startTime
+	format = "2019-01-05T09:12:01.030Z"
+	default = 45 days before current time
+
+	key = endTime
+	format = "2019-02-05T09:12:01.030Z"
+	default = current time
+

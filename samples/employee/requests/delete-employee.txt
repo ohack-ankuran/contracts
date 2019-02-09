@@ -1,0 +1,1 @@
+To delete an employee, call HTTP DELETE method on that employeeId resource. A soft delete will be performed and the employee will be marked "INACTIVE".

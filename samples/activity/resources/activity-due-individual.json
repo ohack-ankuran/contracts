@@ -1,17 +1,19 @@
 {
-	"id": "LWDUIE67HJK768J",
-	"timeCreated": "2019-01-12T00:15:21.030Z",
+	"id": "DQJAZ629PLDF4M",
+	"timeCreated": "2019-02-7T00:01:40.030Z",
 	"type": "DUE",
+	"status": "CORRECT",
+	"changeHistory": false,
 	"dueDetails": {
-		"id": "PKJLIO30480HOC",
+		"id": "NBAWT746MO91CA",
 		"distributionType": "INDIVIDUAL",
 		"item": {
-			"id": 101,	
-			"name": "Red Flower Bedsheet",	
-			"type": "Bedsheet",	
+			"id": 102,	
+			"name": "Green Apron",	
+			"type": "Apron",	
 			"picture": "https://linktoimage.png",
 			"labels": [
-				"red", "flower", "bedsheet"	
+				"green", "apron"	
 			],
 			"timeCreated": "2016-01-11T12:10:59.000Z",	
 			"addedBy": {
@@ -20,9 +22,9 @@
 			},
 			"active": true	
 		},
-		"quantity": 2,
-		"duePerItem": 50,
-		"amount": 100
+		"quantity": 5,
+		"duePerItem": 40,
+		"amount": 200
 	},
 	"paymentDetails": null
 }

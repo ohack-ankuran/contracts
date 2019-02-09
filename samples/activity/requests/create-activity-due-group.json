@@ -1,11 +1,11 @@
 {
-	"timeCreated": "2019-01-12T00:15:21.030Z",
+	"timeCreated": "2019-01-15T00:21:45.387Z",
 	"type": "DUE",
 	"dueDetails": {
 		"distributionType": "GROUP",
 		"item": {
-			"id": 136,
-			"name": "Coach School Bag"
+			"id": 136,	//oneOf id and name is mandatory
+			"name": "Coach School Bag",
 		},
 		"quantity": 15,
 		"duePerItem": 120,
@@ -30,5 +30,6 @@
 				"amount": 700
 			}
 		]
-	}
+	},
+	"paymentDetails": null
 }
