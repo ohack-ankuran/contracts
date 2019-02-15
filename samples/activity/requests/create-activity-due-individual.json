@@ -5,7 +5,7 @@
 		"distributionType": "INDIVIDUAL",
 		"item": {
 			"id": 102,	
-			"name": "Green Apron",	
+			"name": "Green Apron"	
 		},
 		"quantity": 5,
 		"duePerItem": 40,

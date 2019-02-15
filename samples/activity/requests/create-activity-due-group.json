@@ -5,7 +5,7 @@
 		"distributionType": "GROUP",
 		"item": {
 			"id": 136,	//oneOf id and name is mandatory
-			"name": "Coach School Bag",
+			"name": "Coach School Bag"
 		},
 		"quantity": 15,
 		"duePerItem": 120,

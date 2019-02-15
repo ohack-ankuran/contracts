@@ -1,11 +1,13 @@
 {
 	"id": 234567898765,	//number, mandatory, system generated
 	"fullName": "Sunita Singh",	//string, mandatory, user input
+	"mobile": "9880199911",	//string, optional, user input
 	"timeOfJoining": "2019-01-12T00:15:21.030Z",	//date, compulsory, system generated
 	"active": true,	//boolean, compulsory, user input, default=true
 	"husband": {
 		"fullName": "Shyam Singh",
 		"bslEmployeeId": "BSL-236799834"	//string, optional, user input
 	},
-	"centre": 1	//number, mandatory, user input
+	"centre": 1,	//number, mandatory, user input
+	"outstandingDue": 500	//number, mandatory, system generated, default=0
 }
