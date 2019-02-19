@@ -1,0 +1,56 @@
+{
+	"products": [
+		{
+			"id": "BS-001",
+			"name": "Red Flower Bedsheet",	
+			"type": "Bedsheet",	
+			"picture": "https://linktoimage",
+			"labels": [
+				"red", "flower", "bedsheet"	
+			],
+			"timeCreated": "2016-01-11T12:10:59.000Z",	
+			"addedBy": {
+				"id": 137912876
+			}
+		},
+		{
+			"id": "PC-001",
+			"name": "Pillow cover set blue",	
+			"type": "Bedsheet",	
+			"picture": "https://linktoimage",
+			"labels": [
+				"pillow", "cover", "blue"	
+			],
+			"timeCreated": "2016-01-11T12:10:59.000Z",	
+			"addedBy": {
+				"id": 137912876
+			}
+		},
+		{
+			"id": "PC-002",
+			"name": "Pillow cover set red",	
+			"type": "Bedsheet",	
+			"picture": "https://linktoimage",
+			"labels": [
+				"pillow", "cover", "red"	
+			],
+			"timeCreated": "2016-01-11T12:10:59.000Z",	
+			"addedBy": {
+				"id": 137912876
+			}
+		},
+		{
+			"id": "CB-143",
+			"name": "Coach bag Large",	
+			"type": "Bag",	
+			"picture": "https://linktoimage",
+			"labels": [
+				"coach", "bag", "large"	
+			],
+			"timeCreated": "2016-01-11T12:10:59.000Z",	
+			"addedBy": {
+				"id": 137912876
+			}
+		}
+	]
+}
