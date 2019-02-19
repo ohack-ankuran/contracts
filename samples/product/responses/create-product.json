@@ -2,19 +2,19 @@
     "id": "BS-001",
     "links": [
         {
-            "href": "https://api.ankuran.com/v1/products/BS-001",
+            "href": "https://api.ankuran.com/v1/catalogue/products/BS-001",
             "method": "GET",
             "rel": "self",
             "title": "Get product details with this product id."
         },
         {
-            "href": "https://api.ankuran.com/v1/products/BS-001",
+            "href": "https://api.ankuran.com/v1/catalogue/products/BS-001",
             "method": "DELETE",
             "rel": "self",
             "title": "Delete product with this product id."
         },
         {
-            "href": "https://api.ankuran.com/v1/products/BS-001",
+            "href": "https://api.ankuran.com/v1/catalogue/products/BS-001",
             "method": "PATCH",
             "rel": "self",
             "title": "Update or modify existing product with this id."

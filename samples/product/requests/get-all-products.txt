@@ -1,1 +1,1 @@
-GET | https://api.ankuran.com/v1/products
+GET | https://api.ankuran.com/v1/catalogue/products
