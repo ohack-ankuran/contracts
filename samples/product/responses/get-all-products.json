@@ -11,7 +11,8 @@
 			"timeCreated": "2016-01-11T12:10:59.000Z",	
 			"addedBy": {
 				"id": 137912876
-			}
+			},
+			"availableUnits": 124
 		},
 		{
 			"id": "PC-001",
@@ -24,7 +25,8 @@
 			"timeCreated": "2016-01-11T12:10:59.000Z",	
 			"addedBy": {
 				"id": 137912876
-			}
+			},
+			"availableUnits": 39
 		},
 		{
 			"id": "PC-002",
@@ -37,7 +39,8 @@
 			"timeCreated": "2016-01-11T12:10:59.000Z",	
 			"addedBy": {
 				"id": 137912876
-			}
+			},
+			"availableUnits": 14
 		},
 		{
 			"id": "CB-143",
@@ -50,7 +53,8 @@
 			"timeCreated": "2016-01-11T12:10:59.000Z",	
 			"addedBy": {
 				"id": 137912876
-			}
+			},
+			"availableUnits": 43
 		}
 	]
 }
