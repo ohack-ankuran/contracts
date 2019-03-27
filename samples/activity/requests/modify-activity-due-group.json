@@ -1,0 +1,36 @@
+{
+	"timeCreated": "2019-01-15T00:21:45.387Z",
+	"type": "DUE",
+	"dueDetails": {
+		"id": "MWQLIO936807SV",
+		"distributionType": "GROUP",
+		"item": {
+			"id": 136,	//oneOf id and name is mandatory
+			"name": "Coach School Bag",
+		},
+		"quantity": 20,
+		"duePerItem": 100,
+		"amount": 2000,
+		"distribution": [
+			{
+				"employee": {
+					"id": 234567898765	
+				},
+				"amount": 450
+			},
+			{
+				"employee": {
+					"id": 234567898766	
+				},
+				"amount": 650
+			},
+			{
+				"employee": {
+					"id": 234567898767
+			},
+				"amount": 700
+			}
+		]
+	},
+	"paymentDetails": null
+}

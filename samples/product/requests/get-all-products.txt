@@ -1,0 +1,1 @@
+GET | https://api.ankuran.com/v1/catalogue/products

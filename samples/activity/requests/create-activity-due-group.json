@@ -1,0 +1,35 @@
+{
+	"timeCreated": "2019-01-15T00:21:45.387Z",
+	"type": "DUE",
+	"dueDetails": {
+		"distributionType": "GROUP",
+		"item": {
+			"id": 136,	//oneOf id and name is mandatory
+			"name": "Coach School Bag"
+		},
+		"quantity": 15,
+		"duePerItem": 120,
+		"amount": 1800,
+		"distribution": [
+			{
+				"employee": {
+					"id": 234567898765	
+				},
+				"amount": 500
+			},
+			{
+				"employee": {
+					"id": 234567898766	
+				},
+				"amount": 600
+			},
+			{
+				"employee": {
+					"id": 234567898767
+			},
+				"amount": 700
+			}
+		]
+	},
+	"paymentDetails": null
+}

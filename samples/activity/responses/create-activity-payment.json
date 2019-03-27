@@ -1,0 +1,23 @@
+{
+    "id": "DQJAZ629PLDF4M",
+    "links": [
+        {
+            "href": "https://api.ankuran.com/v1/centres/1/employees/activity/DQJAZ629PLDF4M",
+            "method": "GET",
+            "rel": "self",
+            "title": "Get activity details with this activity id."
+        },
+        {
+            "href": "https://api.ankuran.com/v1/centres/1/employees/activity/DQJAZ629PLDF4M",
+            "method": "DELETE",
+            "rel": "self",
+            "title": "Delete activity linked with this id."
+        },
+        {
+            "href": "https://api.ankuran.com/v1/centres/1/employees/activity/DQJAZ629PLDF4M",
+            "method": "PATCH",
+            "rel": "self",
+            "title": "Update or modify existing activity with this id."
+        }
+    ]
+}

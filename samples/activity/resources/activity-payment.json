@@ -1,0 +1,21 @@
+{
+	"id": "DLJUIE67HJK768J",
+	"timeCreated": "2019-02-01T00:15:21.030Z",
+	"type": "PAYMENT",
+	"status": "CORRECT",
+	"changeHistory": false,
+	"dueDetails": null,
+	"paymentDetails": {
+		"id": "OWMXBSK8763YWT",
+		"note": "advance payment",
+		"recipient": {
+			"id": 234567898765,
+			"fullName": "Sunita Singh",
+			"active": true,	
+			"centre": 1
+		},
+		"amount": 1000,
+		"currentDue": 1500,
+		"remainingDue": 500
+	}
+}

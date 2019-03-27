@@ -1,0 +1,30 @@
+{
+	"id": "DQJAZ629PLDF4M",
+	"timeCreated": "2019-02-7T00:01:40.030Z",
+	"type": "DUE",
+	"status": "CORRECT",
+	"changeHistory": false,
+	"dueDetails": {
+		"id": "NBAWT746MO91CA",
+		"distributionType": "INDIVIDUAL",
+		"item": {
+			"id": 102,	
+			"name": "Green Apron",	
+			"type": "Apron",	
+			"picture": "https://linktoimage.png",
+			"labels": [
+				"green", "apron"	
+			],
+			"timeCreated": "2016-01-11T12:10:59.000Z",	
+			"addedBy": {
+				"id": 137912876,
+				"fullName": "Sunita Singh"
+			},
+			"active": true	
+		},
+		"quantity": 5,
+		"duePerItem": 40,
+		"amount": 200
+	},
+	"paymentDetails": null
+}

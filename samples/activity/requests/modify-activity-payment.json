@@ -1,0 +1,10 @@
+{
+	"timeCreated": "2019-01-11T00:15:21.030Z",
+	"type": "PAYMENT",
+	"dueDetails": null,
+	"paymentDetails": {
+		"id": "OWMXBSK8763YWT",
+		"note": "advance payment",	//default="Payment"
+		"amount": 1000
+	}
+}

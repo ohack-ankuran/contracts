@@ -1,0 +1,77 @@
+{
+	"employees": [
+		{
+			"id": 234567898765,	
+			"fullName": "Sunita Singh",	
+			"mobile": "9880199911",
+			"timeOfJoining": "2019-01-01T00:15:21.030Z",	
+			"active": true,	
+			"husband": {
+				"fullName": "Shyam Singh",
+				"bslEmployeeId": "BSL-236799834"	
+			},
+			"centre": 1,	
+			"outstandingDue": 2356
+		},
+		{
+			"id": 234567898766,	
+			"fullName": "Anita Jain",	
+			"mobile": "9880199911",
+			"timeOfJoining": "2019-01-05T00:15:21.030Z",	
+			"active": true,	
+			"husband": {
+				"fullName": "Mr Jain",
+				"bslEmployeeId": "BSL-236799835"	
+			},
+			"centre": 1,	
+			"outstandingDue": 900
+		},
+		{
+			"id": 234567898767,	
+			"fullName": "Sushila Verma",
+			"mobile": "9880199911",	
+			"timeOfJoining": "2019-01-07T00:15:21.030Z",	
+			"active": true,	
+			"husband": {
+				"fullName": "Mr Verma",
+				"bslEmployeeId": "BSL-236799836"	
+			},
+			"centre": 1,	
+			"outstandingDue": 1500
+		},
+		{
+			"id": 234567898768,	
+			"fullName": "Kanta Singh",
+			"mobile": "9880199911",	
+			"timeOfJoining": "2019-02-03T00:15:21.030Z",	
+			"active": true,	
+			"husband": {
+				"fullName": "Mr Singh",
+				"bslEmployeeId": "BSL-236799837"	
+			},
+			"centre": 1,	
+			"outstandingDue": -500
+		},
+		{
+			"id": 234567898769,	
+			"fullName": "Ramakanta Sharma",	
+			"mobile": "9880199911",
+			"timeOfJoining": "2019-02-03T00:15:21.030Z",	
+			"active": true,
+			"centre": 1,	
+			"outstandingDue": 0
+		},
+		{
+			"id": 234567898770,	
+			"fullName": "Stuti Mishra",	
+			"mobile": "9880199911",
+			"timeOfJoining": "2019-02-03T00:15:21.030Z",	
+			"active": false,
+			"husband": {
+				"fullName": "Mr Singh"
+			},
+			"centre": 1,	
+			"outstandingDue": 300
+		}
+	]
+}
